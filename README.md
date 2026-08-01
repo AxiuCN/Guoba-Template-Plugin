@@ -1,6 +1,6 @@
 # Guoba-Template-Plugin / 锅巴配置规范模板
 
-TRSS-Yunzai v3 的锅巴（guoba-plugin）配置规范模板，开源（GPLv3）。不提供实际业务功能，而是作为标准范例，供其它自研插件接入锅巴 Web 后台时参考复制。
+TRSS-Yunzai v3 的锅巴（guoba-plugin）配置规范模板，开源（GPL-3.0）。不提供实际业务功能，而是作为标准范例，供其它自研插件接入锅巴 Web 后台时参考复制。
 
 ## 特性
 
@@ -67,4 +67,8 @@ Guoba-Template-Plugin/
 
 ## 开源协议
 
-GPLv3
+[GPL-3.0](./LICENSE)
+
+## 交流与讨论
+
+如有问题，请加入 QQ 群 **965272093** 交流反馈。
