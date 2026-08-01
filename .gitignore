@@ -1,3 +1,17 @@
-node_modules/
+# 忽略用户的本地配置文件
 config/config.yaml
-config/list_config.yaml
+
+# 忽略所有用户数据和日志
+data/
+
+# 忽略config中所有配置文件
+config/*.yaml
+
+# 依赖
+node_modules/
+
+# Claude Code 工作区
+.claude/
+
+# 日志
+log/
