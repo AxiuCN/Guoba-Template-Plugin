@@ -1,0 +1,20 @@
+# Guoba-Template-Plugin 配置文件 — 手动编辑参考（真实默认值，入库）
+# 首次启动时 index.js 自动复制到 config.yaml
+
+# ===== 基础配置 =====
+basic:
+  # 是否启用功能（Switch）
+  enabled: true
+  # 单行文本（Input，必填）
+  text: '你好，锅巴'
+  # 数字（InputNumber）
+  number: 42
+  # 多行文本（InputTextArea，含换行请用双引号包裹）
+  textarea: '第一行\n第二行'
+  # 定时 cron 表达式（EasyCron，Quartz 格式）
+  cron: '0 0 5 * * ? *'
+
+# ===== 外观配置 =====
+appearance:
+  # 主色（GColorPicker）
+  color: '#1677ff'

@@ -1,0 +1,15 @@
+{
+  "name": "Guoba-Template-Plugin",
+  "version": "1.0.0",
+  "description": "Guoba-Template-Plugin for TRSS-Yunzai — 锅巴配置规范模板",
+  "author": "阿修Axiu",
+  "type": "module",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "yaml": "^2.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxiuCN/Guoba-Template-Plugin.git"
+  }
+}

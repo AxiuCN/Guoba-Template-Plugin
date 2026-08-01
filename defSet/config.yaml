@@ -1,0 +1,21 @@
+# Guoba-Template-Plugin 配置文件 — 锅巴保存模板
+# 值使用 ${变量} 占位符，保存时由 guoba/index.js 按 TEMPLATE_VARS 映射替换
+# 注意：本文件结构与 config/config.yaml.example 严格一致，仅值不同
+
+# ===== 基础配置 =====
+basic:
+  # 是否启用功能（Switch）
+  enabled: ${basic_enabled}
+  # 单行文本（Input，必填）
+  text: ${basic_text}
+  # 数字（InputNumber）
+  number: ${basic_number}
+  # 多行文本（InputTextArea）
+  textarea: ${basic_textarea}
+  # 定时 cron 表达式（EasyCron，Quartz 格式）
+  cron: ${basic_cron}
+
+# ===== 外观配置 =====
+appearance:
+  # 主色（GColorPicker）
+  color: ${appearance_color}

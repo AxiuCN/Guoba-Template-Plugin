@@ -1,0 +1,18 @@
+# Guoba-Template-Plugin 列表配置 — 手动编辑参考（入库）
+# 数组/子表结构无法用 ${变量} 占位符表达，锅巴保存时由 guoba/index.js 直接 YAML 读写
+
+# 生效群聊（GSelectGroup，群号数组）
+groups: []
+
+# 生效好友（GSelectFriend，QQ 数组）
+friends: []
+
+# 触发关键词（GTags，字符串数组）
+keywords:
+  - 模板
+  - 锅巴
+
+# 子表项（GSubForm multiple，对象数组）
+items:
+  - name: 示例项
+    enable: true
